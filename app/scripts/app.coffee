@@ -1,0 +1,3 @@
+define [], ->
+  "Hello from Yeoman!"
+
