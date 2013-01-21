@@ -1,3 +1,5 @@
-define [], ->
-  "Hello from Yeoman!"
+define ["marionette"], (Marionette) ->
+
+	initialize: ->
+		console.log "Hello from Yeoman!"
 

@@ -25,5 +25,5 @@ require ["jquery", "underscore", "backbone", "marionette", "app"], ($, _, Backbo
 	console.log "Marionette: #{typeof Backbone.Marionette}"
 
 	# use app here
-	console.log app
+	do app.initialize
 
